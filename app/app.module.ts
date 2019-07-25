@@ -15,12 +15,12 @@ import {
 } from '@angular/material';
 
 import { AppComponent } from './app.component';
-import { Test1Component } from './test1/test1.component';
+
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, MdToolbarModule, MdTabsModule, MdButtonModule, MdInputModule, AppRoutingModule, MdDatepickerModule, MdNativeDateModule, MdCheckboxModule, MdRadioModule ],
-  declarations: [ AppComponent, Test1Component ],
+  declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
